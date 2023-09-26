@@ -1,0 +1,47 @@
+@import  url('https://fonts.cdnfonts.com/css/digital-numbers');
+:root {
+    font-family: 'Digital Numbers', sans-serif;
+}
+
+.card {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    grid-template-rows: 1fr auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.card_text {
+    margin: 20px auto;
+    max-width: 400px;
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.33) 100%);
+    color: #25063F;
+    border-radius: 39px;
+    padding: 70px 33px;
+}
+
+.card_footer {
+    align-items: flex-end;
+}
+
+.card_container {
+    
+}
+
+.card_button {
+    color: rgba(240, 255, 255, 0);
+    background-color: rgba(240, 255, 255, 0);
+    border-style: none;
+    overflow: hidden;
+    border-radius: 50%;
+    width: min-content;
+    height: 67px;
+}
+
+.card_button:hover {
+    cursor: pointer;
+}
+
+.card_button img {
+}
