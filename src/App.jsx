@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import quotes from './db/quotes.json'
 import { getRandomElement } from './utilities/random'
-import Card from './components/card'
+import Card from './components/Card'
 
 const backgrounds = ["bg1", "bg2", "bg3", "bg4"]
 
