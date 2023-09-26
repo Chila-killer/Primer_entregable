@@ -25,10 +25,6 @@
     align-items: flex-end;
 }
 
-.card_container {
-    
-}
-
 .card_button {
     color: rgba(240, 255, 255, 0);
     background-color: rgba(240, 255, 255, 0);
@@ -41,7 +37,4 @@
 
 .card_button:hover {
     cursor: pointer;
-}
-
-.card_button img {
 }
