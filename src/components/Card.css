@@ -21,6 +21,10 @@
     padding: 70px 33px;
 }
 
+.card_title {
+    font-size: xx-large;
+}
+
 .card_footer {
     align-items: flex-end;
 }
